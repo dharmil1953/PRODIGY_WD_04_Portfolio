@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharmil's Portfolio</title>
+    <script src="https://kit.fontawesome.com/1a48c47b52.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="portfolio.html" class="nav__logo"><span>D</span>harmil.</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">Work</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            
+            <!-- toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="container section home" id="home">
+            <img src="images/background.png" class="home__img1">
+            <p class="home__name">Hi, I'm Dharmil Kotak</p>
+            <h1 class="home__title">WEB DEVELOPER</h1>
+            <p class="home__intro">Passionate <strong>Web Developer</strong> skilled in creating dynamic and
+                user-centric websites through proficient coding
+                and innovative design integration</p>
+            <button class="home__reachoutbtn btn"><a href="mailto: dharmilkotak00@gmail.com">Reach out</a></button>
+        </section>
+
+        <section class="container section about" id="about">
+            <div class="about__content">
+                <h2 class="about__title">About</h2>
+                <p class="about__description">I'm <span>Dharmil Kotak</span>, a dedicated <span>web developer</span> with a talent for creating stylish and useful online solution.</p>
+                <p class="about__description">With expertise in HTML, CSS, Javascript, React, Python, I specialized in making creative design and translating into interactive websites that captivate users.</p>
+                <hr class="about__hr">
+                <h3 class="about__subtitle">Skills</h3>
+                <div class="about__ul-container">
+                    <ul class="about__ul list1">
+                        <li class="about__list">Javascript</li>
+                        <li class="about__list">CSS</li>
+                        <li class="about__list">HTML</li>
+                        <li class="about__list">Python</li>
+                        <li class="about__list">React</li>
+                    </ul>
+                    <ul class="about__ul list2">
+                        <li class="about__list">Bootstrap</li>
+                        <li class="about__list">SQL</li>
+                        <li class="about__list">Graphic Designing</li>
+                        <li class="about__list">Content Creation</li>
+                        <li class="about__list">UI Designing</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about__img">
+                <img src="images/about_image-bg.png" alt="">
+            </div>
+        </section>
+        <section class="work container section" id="work">
+            <h2 class="work__title">Projects</h2>
+
+            <div class="work__container">
+                <!-- project 1 -->
+                <div class="work__project workcontent1">
+                    <h3 class="work__project subtitle">Grocery Express</h3>
+                    <p class="work__project-description1">
+                        Created a Responsive Website Landing Page using HTML, CSS, JS, PHP.
+                    </p>
+                    <p class="work__project-description2">
+                        Our Grocery E-commerce Website is a comprehensive platform designed to provide a seamless online shopping experience for customers while offering powerful management capabilities for both admins and delivery personnel. This project is built to serve the needs of customers, delivery staff, and administrators effectively
+                    </p>
+                    <a href="https://github.com/dharmil1953/Grocery-Express" class="btn btn-success">Project Link</a>
+                </div>
+                <!-- project 2 -->
+                <div class="work__project workcontent1">
+                    <h3 class="work__project subtitle">SSIP Hackathon</h3>
+                    <p class="work__project-description1">
+                        Created a Responsive Website Landing Page using React, PostgreySQL.
+                    </p>
+                    <p class="work__project-description2">
+                        Our tech-driven initiative enhances local administration by providing multilingual services, text-to-speech accessibility, and a strong grievance system for prompt issue resolution. Citizens also benefit from exclusive offers, water supply schedules, and seamless access to government services.
+                    </p>
+                    <a href="https://github.com/dharmil1953/SSIP--Hackathon" class="btn btn-success">Project Link</a>
+                </div>
+                <!-- project 3 -->
+                <div class="work__project workcontent1">
+                    <h3 class="work__project subtitle">Weather App</h3>
+                    <p class="work__project-description1">
+                        Created a Responsive Website Landing Page using HTML, CSS, JS.
+                    </p>
+                    <p class="work__project-description2">
+                        it saw the perfect weather, wind speed and humidity according the city which user enter.
+                    </p>
+                    <a href="https://github.com/dharmil1953/Weather-App" class="btn btn-success">Project Link</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact container section">
+            <h2 class="contact__title">Get In Contact</h2>
+            <p class="contact__description">
+              Whether you are starting a project, have business inquiries or just
+              want to say hi, my inbox is always open so feel free to reach out and
+              I will get back to you as soon as possible.
+            </p>
+            <a
+              class="contact__btn btn"
+              href="mailto:dharmilkotak00@gmail.com"
+              target="_blank"
+              >React Out</a
+            >
+          </section>
+    </main>
+    <footer class="footer container section">
+        <h3 class="footer__title">~ Dharmil Kotak ~</h3>
+    </footer>
+</body>
+</html>
